@@ -1,0 +1,94 @@
+.picker{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  .imgone{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(37, 160, 255,0.5) 80%),url("../../public/assets/bg_card.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .imgtwo{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(37, 160, 255,0.5) 80%),url("../../public/assets/head.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .imgthree{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(37, 160, 255,0.5) 80%),url("../../public/assets/fort.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  &__card{
+    width: 400px;
+    height: 600px;
+    border: 10px solid white;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    h1 {
+      text-align: center;
+      font-family: BattleFest;
+      color: #ffffff;
+      font-size: 60px;
+      letter-spacing: 2px;
+    }
+
+    h4 {
+      text-align: center;
+      color: white;
+      font-size: 25px;
+    }
+
+
+    button {
+      cursor: pointer;
+      width: 150px;
+      height: 60px;
+      border: 0;
+      -webkit-transform: skew(-10deg);
+      -moz-transform: skew(-10deg);
+      -o-transform: skew(-10deg);
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+
+      a{
+        position: relative;
+        top: -8%;
+      }
+
+      h5 {
+        font-family: BattleFest;
+        color: #000000;
+        font-size: 35px;
+      }
+    }
+
+    &-text {
+      margin-bottom: 10px;
+    }
+
+    transition: width 0.15s, height 0.15s;
+
+    &:hover {
+      transition: width 0.3s, height 0.3s ease-in-out;
+      width: 500px;
+      height: 750px;
+    }
+
+  }
+
+}
+
+a {
+  text-decoration: none;
+}
