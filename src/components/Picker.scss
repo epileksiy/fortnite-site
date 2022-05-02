@@ -55,7 +55,7 @@
       -webkit-transform: skew(-10deg);
       -moz-transform: skew(-10deg);
       -o-transform: skew(-10deg);
-      background: #ffffff;
+      background: #fbec5d;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -68,7 +68,7 @@
 
       h5 {
         font-family: BattleFest;
-        color: #000000;
+        color: #1f1f1f;
         font-size: 35px;
       }
     }
@@ -91,4 +91,47 @@
 
 a {
   text-decoration: none;
+}
+
+.icanchangeyou {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+
+}
+
+.contacts {
+
+
+  &__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    &-circle {
+
+      border: 12px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 8px solid #d7d7d7;
+      width: 80px;
+      height: 80px;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    }
+  }
 }

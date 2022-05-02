@@ -1,14 +1,15 @@
-import { BrowserRouter, Route, Routes} from "react-router-dom";
-import React from "react";
+import { BrowserRouter, Route, Routes, Link,useLocation} from "react-router-dom";
+import React,{useState} from "react";
 
 import Picker from "./components/Picker";
-import Container from "./components/Contacts";
+import Contacts from "./components/Contacts";
+import Works from "./components/Works";
+import About from "./components/About";
 
 import './App.scss';
 
-
-
 function App() {
+
   return (
       <div className="App">
           <BrowserRouter>
@@ -17,22 +18,24 @@ function App() {
                           <Picker/>
                   }>
                   </Route>
+
                   <Route path="/about" element={
-                      <h1>123</h1>
+                      <About/>
                   }>
                   </Route>
-                  <Route path="/contacts" element={
-                      <React.Fragment>
-                          <Container/>
-                          <div className="contacts"/>
-                      </React.Fragment>
 
+                  <Route path="/works" element={
+                      <React.Fragment>
+                          <Works/>
+                      </React.Fragment>
+                  }>
+                  </Route>
+
+                  <Route path="/contacts" element={
+                          <Contacts/>
                   }>
                   </Route>
               </Routes>
-              <div className="App-footer">
-                  <h3>Выберите игровой режим</h3>
-              </div>
           </BrowserRouter>
       </div>
   );
