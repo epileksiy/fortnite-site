@@ -12,7 +12,7 @@ function App() {
 
   return (
       <div className="App">
-          <BrowserRouter>
+          <BrowserRouter basename="/fortnite-site">
               <Routes>
                   <Route path="/" element={
                           <Picker/>
