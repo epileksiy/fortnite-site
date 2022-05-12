@@ -24,7 +24,7 @@ const About = () => {
                             <br/>
                         Современный взгляд на дизайн с учётом всех актуальных тенденций</p>
 
-                        <h5>We do our best</h5>
+                        <h5><span>We do our best</span></h5>
                     </div>
                 </div>
                 <div className="about__right"></div>
