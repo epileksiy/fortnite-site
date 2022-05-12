@@ -19,7 +19,7 @@ const Works = () => {
             </div>
             <div className="works__feed">
                 <div className="works__feed-list">
-                    <Project text="Portfolio site that was made using vite js. For interesting effect at the background was made interactive 3d scene using ThreeJS library. Quite simple but fun." first/>
+                    <Project text="Portfolio 2 site that was made using vite js. For interesting effect at the background was made interactive 3d scene using ThreeJS library. Quite simple but fun." first/>
                     <Project text="Portfolio site that was made using vite js. For interesting effect at the background was made interactive 3d scene using ThreeJS library. Quite simple but fun." second/>
                 </div>
             </div>
