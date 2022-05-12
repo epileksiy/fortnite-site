@@ -13,14 +13,14 @@ const Works = () => {
     return (
         <div className="works">
             <div className="works__canvas" >
-                <h1>БЛЯТЬ Я ХЗ КАК СДЕЛАТЬ КРАСИВО</h1>
-                <p>этот дизайн ебаный</p>
+                <h1>OUR PORTFOLIO PROJECTS</h1>
+                <p>Our company just on the start of it`s way </p>
+                <p>So we made a bunch of works that approves our ability of making complicated projects</p>
             </div>
             <div className="works__feed">
                 <div className="works__feed-list">
-                    <Project text="Первый проект, в котором были применены буквально все силы, 3 танца с бубном, 1 без бубна и 1 без цели. Было тяжело, больно и очень скучно. Было сложно себя заставить работать." first/>
-                    <Project text="Второй проект, в котором были применены буквально все силы, 3 танца с бубном, 1 без бубна и 1 без цели. Было тяжело, больно и очень скучно. Было сложно себя заставить работать." second/>
-                    <Project text="Третий проект, в котором были применены буквально все силы, 3 танца с бубном, 1 без бубна и 1 без цели. Было тяжело, больно и очень скучно. Было сложно себя заставить работать." third/>
+                    <Project text="Portfolio site that was made using vite js. For interesting effect at the background was made interactive 3d scene using ThreeJS library. Quite simple but fun." first/>
+                    <Project text="Portfolio site that was made using vite js. For interesting effect at the background was made interactive 3d scene using ThreeJS library. Quite simple but fun." second/>
                 </div>
             </div>
             <div className="App-footer">

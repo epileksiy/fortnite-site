@@ -7,9 +7,9 @@ const Picker = (changeFooter) => {
     return (
         <React.Fragment>
             <div className="picker">
-                <Card text1={'Контакты'} text2={'Подписывайся на наши соцсети'} text3={'Ты найдёшь для себя много интересного'} buttonText={'Начать'} link={"/contacts"} one/>
-                <Card text1={'О нас'} text2={'Наша команда'} text3={''} buttonText={'Начать'} link={"/about"} two/>
-                <Card text1={'Другие работы'} text2={''} text3={'Ты найдёшь для себя много интересного'} buttonText={'Начать'} link={"/works"} three/>
+                <Card text1={'Contacts'} text2={'Contact us'} text3={''} buttonText={'Начать'} link={"/contacts"} one/>
+                <Card text1={'About'} text2={'Some words about our team'} text3={''} buttonText={'Начать'} link={"/about"} two/>
+                <Card text1={'Works'} text2={''} text3={'Proves we can do a lot'} buttonText={'Начать'} link={"/works"} three/>
             </div>
             <div className="App-footer">
                 <h3>Выберите игровой режим</h3>
