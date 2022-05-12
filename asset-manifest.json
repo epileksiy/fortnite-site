@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8aaa533.css",
+    "main.js": "/static/js/main.9db9a5d9.js",
+    "static/js/787.0f34f414.chunk.js": "/static/js/787.0f34f414.chunk.js",
+    "static/media/fish.png": "/static/media/fish.5c2b25cc495a19bffcff.png",
+    "static/media/fort.jpg": "/static/media/fort.bc7ae8f1a9d83550a306.jpg",
+    "static/media/blackguy.png": "/static/media/blackguy.9cda076f67dc7e89ed76.png",
+    "static/media/bg_card.jpg": "/static/media/bg_card.f2df6a42e5d022cbcdf8.jpg",
+    "static/media/head.jpg": "/static/media/head.973004fd3ff11934cbe4.jpg",
+    "static/media/battlefest.ttf": "/static/media/battlefest.9a279d22f71f6f08e0e5.ttf",
+    "static/media/second.jpg": "/static/media/second.8929e7cb25ce71005bc5.jpg",
+    "static/media/first.jpg": "/static/media/first.04309105dd379b4ed76b.jpg",
+    "static/media/third.jpg": "/static/media/third.cc362506d7fd046ac594.jpg",
+    "index.html": "/index.html",
+    "main.a8aaa533.css.map": "/static/css/main.a8aaa533.css.map",
+    "main.9db9a5d9.js.map": "/static/js/main.9db9a5d9.js.map",
+    "787.0f34f414.chunk.js.map": "/static/js/787.0f34f414.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8aaa533.css",
+    "static/js/main.9db9a5d9.js"
+  ]
+}
