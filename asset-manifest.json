@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fortnite-site/static/css/main.8511a3cb.css",
-    "main.js": "/fortnite-site/static/js/main.434aa90d.js",
+    "main.js": "/fortnite-site/static/js/main.ee1bc84d.js",
     "static/js/787.0f34f414.chunk.js": "/fortnite-site/static/js/787.0f34f414.chunk.js",
     "static/media/fish.png": "/fortnite-site/static/media/fish.5c2b25cc495a19bffcff.png",
     "static/media/fort.jpg": "/fortnite-site/static/media/fort.bc7ae8f1a9d83550a306.jpg",
@@ -14,11 +14,11 @@
     "static/media/third.jpg": "/fortnite-site/static/media/third.cc362506d7fd046ac594.jpg",
     "index.html": "/fortnite-site/index.html",
     "main.8511a3cb.css.map": "/fortnite-site/static/css/main.8511a3cb.css.map",
-    "main.434aa90d.js.map": "/fortnite-site/static/js/main.434aa90d.js.map",
+    "main.ee1bc84d.js.map": "/fortnite-site/static/js/main.ee1bc84d.js.map",
     "787.0f34f414.chunk.js.map": "/fortnite-site/static/js/787.0f34f414.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8511a3cb.css",
-    "static/js/main.434aa90d.js"
+    "static/js/main.ee1bc84d.js"
   ]
 }
