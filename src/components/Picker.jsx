@@ -12,7 +12,7 @@ const Picker = (changeFooter) => {
                 <Card text1={'Works'} text2={''} text3={'Proves we can do a lot'} buttonText={'Начать'} link={"/works"} three/>
             </div>
             <div className="App-footer">
-                <h3>Выберите игровой режим</h3>
+                <h3>Pick your game mode :)</h3>
             </div>
         </React.Fragment>
     );

@@ -17,14 +17,14 @@ const About = () => {
                         <p>Frontend Developer Team "AA.TEAM", <span>Saint-Petersburg</span>
                             <br/>
                             <br />
-                        Разрабатываем реактивные сайты любого вида сложности, креативные лэндинги, современные анимированные web-платформы
+                        We creating reactive sites of any complexity, creative landings, modern animated web platforms
                             <br/>
                             <br />
-                        Молодая амбициозная команда - это скорость, гибкость и качество
+                        Young ambitious team - is a speed, flexibility and quality (we just can`t lose any chances)
                             <br/>
-                        Современный взгляд на дизайн с учётом всех актуальных тенденций</p>
+                        Modern vision on design with cosidering all actual tendencies</p>
 
-                        <h5>We do our best</h5>
+                        <h5><span>We do our best for you not stressed</span></h5>
                     </div>
                 </div>
                 <div className="about__right"></div>

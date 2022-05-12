@@ -108,8 +108,8 @@ const Contacts = () => {
     return (
         <React.Fragment>
             <div className="App-topper">
-                <h3>Вращайте модель с помощью левой кнопки мыши, чтобы увидеть контакты!</h3>
-                <h3>Правой кнопкой мыши, чтобы двигать.</h3>
+                <h3>Rotate model with left mouse button to see all our contacts!</h3>
+                <h3>Right mouse button - move, scroll - for zoom</h3>
             </div>
             <div ref={mountRef} className='icanchangeyou'>
                 {isLoading && (<div className="contacts__loader"> <div className="contacts__loader-circle"></div> </div>)}
