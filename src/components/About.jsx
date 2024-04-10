@@ -14,7 +14,7 @@ const About = () => {
                         </svg>
                     </div>
                     <div className="about__main-text">
-                        <p>Frontend Developer Team "AA.TEAM", <span>Saint-Petersburg</span>
+                        <p>Frontend Developer Team "AA.TEAM"
                             <br/>
                             <br />
                         We creating reactive sites of any complexity, creative landings, modern animated web platforms
@@ -22,9 +22,10 @@ const About = () => {
                             <br />
                         Young ambitious team - is a speed, flexibility and quality (we just can`t lose any chances)
                             <br/>
+                            <br/>
                         Modern vision on design with cosidering all actual tendencies</p>
 
-                        <h5><span>We do our best for you not stressed</span></h5>
+                        <h5><span>We do OUR BEST for you NOT STRESSED</span></h5>
                     </div>
                 </div>
                 <div className="about__right"></div>

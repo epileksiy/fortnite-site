@@ -166,7 +166,21 @@
     }
   }
 }
+.mobile-message{
+  color:white;
+  font-size: 20px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 
+}
 .about {
   display: flex;
   flex-direction: row;
@@ -196,15 +210,16 @@
       padding: 40px;
 
       span {
-        background: rgba(0, 0, 0, 0.8);
-        color:rgba(255, 255, 255,1)
+        background: #ffffff;
+        color:rgb(0, 0, 0);
+        padding: 20px;
       }
 
       p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         font-size: 30px;
-        text-align: left;
+        text-align: center;
         color: #242424;
       }
 

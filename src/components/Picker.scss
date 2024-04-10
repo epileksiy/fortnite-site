@@ -44,13 +44,17 @@
       text-align: center;
       color: white;
       font-size: 25px;
+      font-style: italic;
     }
 
 
     button {
       cursor: pointer;
-      width: 150px;
+      width: auto;
       height: 60px;
+      padding: 25px;
+      padding-top: 20px;
+      padding-bottom: 10px;
       border: 0;
       -webkit-transform: skew(-10deg);
       -moz-transform: skew(-10deg);
